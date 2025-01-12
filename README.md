@@ -45,8 +45,6 @@ Grâce à des outils avancés comme BrightData pour le scraping et l'API Gmail (
 
 ## Pré-requis
 
-### **Pré-requis**
-
 Avant de commencer, assurez-vous d’avoir les éléments suivants installés et configurés sur votre machine :
 
 1. **R et RStudio** :  
