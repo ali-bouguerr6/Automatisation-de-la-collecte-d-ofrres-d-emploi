@@ -127,5 +127,5 @@ Arguments : "C:\chemin\vers\script_automatisation.R"
   ## Auteurs
 
 - Ali BOUGUERRA : [@ali-bouguerr6](https://github.com/ali-bouguerr6/exam-schedules/)
-- Nawel ARIF: [@LANEVE](https://github.com/LANEVE)
+- Nawel ARIF: [@NawelARIF](https://github.com/NawelARIF)
 
