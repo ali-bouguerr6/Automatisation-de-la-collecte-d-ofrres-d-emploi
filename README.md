@@ -54,7 +54,9 @@ Avant de commencer, assurez-vous d’avoir les éléments suivants installés et
   
 2. **Cloner ce dépôt** :
 
- 
+ git clone https://github.com/ali-bouguerr6/exam-schedules
+cd exam-schedules
+
 3. **Packages R nécessaires** :  
    Assurez-vous d’avoir les packages suivants installés dans R :
    - `httr` : pour les requêtes HTTP vers l’API BrightData.
