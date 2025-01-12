@@ -51,8 +51,11 @@ Avant de commencer, assurez-vous d’avoir les éléments suivants installés et
 1. **R et RStudio** :  
    - Téléchargez et installez [R](https://cran.r-project.org/).  
    - Installez également [RStudio](https://posit.co/download/rstudio/) pour un environnement de développement intégré convivial.
+  
+2. **Cloner ce dépôt** :
 
-2. **Packages R nécessaires** :  
+ 
+3. **Packages R nécessaires** :  
    Assurez-vous d’avoir les packages suivants installés dans R :
    - `httr` : pour les requêtes HTTP vers l’API BrightData.
    - `rvest` : pour le scraping et le parsing HTML.
@@ -62,9 +65,16 @@ Avant de commencer, assurez-vous d’avoir les éléments suivants installés et
    ```R
    install.packages(c("httr", "rvest", "gmailr", "tidyverse"))
 
-## BrightData
+## Configuration de BrightData
 
+**Créer un compte et récupérer l'API Token :**
 
+- Inscrivez-vous sur BrightData. [BrightData](https://brightdata.com/)
+- Accédez à la section API de votre tableau de bord et générez un API Token.
+- Remplacer le Token dans le code :
+
+Ouvrez le script R du projet.
+Remplacez la valeur de api_token par le Token généré :
 
 ## Configuration de l'API Gmail 
 
