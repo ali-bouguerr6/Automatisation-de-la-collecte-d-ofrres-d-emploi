@@ -35,3 +35,12 @@ Grâce à des outils avancés comme BrightData pour le scraping et l'API Gmail (
 ## Démo
 
 ![](Gif.démo.gif)
+
+## Structure
+
+- Dans [main.R](main.R) vous retrouverez le script principal de scraping et d'envoi automatique des e-mails.
+- Dans [gmailr_token.R](sub/fonctions.R) vous retrouverezl e fichier token généré pour authentifier automatiquement l'API Gmail.
+- Le fichier [job_data.csv]() Fichier CSV généré contenant les offres d’emploi collectées.
+- Dans [gif.démo] (Gif.démo.gif), vous retrouverez le GIF utilisé pour la démonstration dans la documentation.
+
+
