@@ -70,16 +70,19 @@ Avant de commencer, assurez-vous d’avoir les éléments suivants installés et
 
 
 **Créer les identifiants pour l'API Gmail**
-Créez un projet dans la Google Cloud Console [Google Cloud Console](https://console.cloud.google.com/).
-Activez l'API Gmail pour ce projet.
-Téléchargez le fichier credentials.json et placez-le dans le répertoire principal ou dans un dossier config/.
-Installez le package  `gmailr` dans R pour l’envoi de s e-mails via l’API Gmail. 
+
+- Créez un projet dans la Google Cloud Console [Google Cloud Console](https://console.cloud.google.com/).
+- Activez l'API Gmail pour ce projet.
+- Téléchargez le fichier credentials.json et placez-le dans le répertoire principal ou dans un dossier config/.
+- Installez le package  `gmailr` dans R pour l’envoi de s e-mails via l’API Gmail. 
 
 **Stockage du token** 
+
 Lors de la première exécution, un fichier gmailr_token sera généré automatiquement.
 Ce fichier permet une authentification automatique pour les prochaines exécutions sans intervention manuelle.
 
 **Authentification de l'API Gmail**
+
 Exécutez la commande suivante dans R pour authentifier l'API Gmail :
    ```R
 
@@ -89,4 +92,5 @@ gm_auth(cache = "gmailr_token")
 Lors de la première exécution, une fenêtre s'ouvrira dans le navigateur pour demander les autorisations Gmail.
    ```
 **Envoi des e-mails**
-Créez un e-mail avec gm_mime() et envoyez-le avec gm_send_message()
+
+ Créez un e-mail avec gm_mime() et envoyez-le avec gm_send_message()
