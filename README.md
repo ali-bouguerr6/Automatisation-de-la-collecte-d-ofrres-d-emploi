@@ -108,10 +108,11 @@ Lors de la première exécution, une fenêtre s'ouvrira dans le navigateur pour 
  Créez un e-mail avec gm_mime() et envoyez-le avec gm_send_message()
 
 ## Automatisation avec le Planificateur de Tâches Windows
-
+   ```
 - Assurez-vous que la commande suivante fonctionne dans le terminal :
-
-"C:\Program Files\R\R-4.4.1\bin\Rscript.exe" "C:\chemin\vers\votre_script.R"
+   
+"C:\Program Files\R\R-4.4.1\bin\Rscript.exe" "C:\chemin\vers\script-automatisation.R"
+   ```
 
 - Configurer le Planificateur de Tâches :
 
@@ -120,9 +121,8 @@ Cliquez sur Créer une tâche et configurez :
 Déclencheur : Définissez la fréquence (ex. : tous les jours à 8h).
 
 - Action :
+  
 Programme/script : "C:\Program Files\R\R-4.4.1\bin\Rscript.exe"
 Arguments : "C:\chemin\vers\script_automatisation.R"
 
-- Tester la tâche :
-  
-Cliquez sur Exécuter pour vérifier que le script fonctionne et que l’e-mail est envoyé.
+- Tester la tâche : Cliquez sur Exécuter pour vérifier que le script fonctionne et que l’e-mail est envoyé.
