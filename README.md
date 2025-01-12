@@ -43,4 +43,24 @@ Grâce à des outils avancés comme BrightData pour le scraping et l'API Gmail (
 - Le fichier [job_data.csv]() Fichier CSV généré contenant les offres d’emploi collectées.
 - Dans [gif.démo] (Gif.démo.gif), vous retrouverez le GIF utilisé pour la démonstration dans la documentation.
 
+## Pré-requis
+
+### **Pré-requis**
+
+Avant de commencer, assurez-vous d’avoir les éléments suivants installés et configurés sur votre machine :
+
+1. **R et RStudio** :  
+   - Téléchargez et installez [R](https://cran.r-project.org/).  
+   - Installez également [RStudio](https://posit.co/download/rstudio/) pour un environnement de développement intégré convivial.
+
+2. **Packages R nécessaires** :  
+   Assurez-vous d’avoir les packages suivants installés dans R :
+   - `httr` : pour les requêtes HTTP vers l’API BrightData.
+   - `rvest` : pour le scraping et le parsing HTML.
+   - `gmailr` : pour l’envoi des e-mails via l’API Gmail.  
+   - `tidyverse` : pour la manipulation et la structuration des données.  
+   Installez-les avec la commande :
+   ```R
+   install.packages(c("httr", "rvest", "gmailr", "tidyverse"))
+
 
