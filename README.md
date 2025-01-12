@@ -83,7 +83,7 @@ Remplacez la valeur de api_token par le Token généré :
 - Créez un projet dans la Google Cloud Console [Google Cloud Console](https://console.cloud.google.com/).
 - Activez l'API Gmail pour ce projet.
 - Téléchargez le fichier credentials.json et placez-le dans le répertoire principal ou dans un dossier config/.
-- Installez le package  `gmailr` dans R pour l’envoi de s e-mails via l’API Gmail. 
+- Installez le package  `gmailr` dans R pour l’envoi des e-mails via l’API Gmail. 
 
 **Stockage du token** 
 
