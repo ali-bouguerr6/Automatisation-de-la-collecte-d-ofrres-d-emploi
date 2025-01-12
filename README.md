@@ -15,7 +15,7 @@
 - [Pré-requis](#pré-requis)
 - [BrighData](#BrightData)
 - [API Gmail](#APIGmail)
-- [Planificateur de tâches Windows](#Plannificateur_de_tâches_Windows)
+- [Automatisation avec le Planificateur de Tâches Windows](#Automatisation_avec_le_Planificateur_de_Tâches_Windows)
 - [Auteurs](#auteurs)
 
 
