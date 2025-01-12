@@ -126,3 +126,9 @@ Programme/script : "C:\Program Files\R\R-4.4.1\bin\Rscript.exe"
 Arguments : "C:\chemin\vers\script_automatisation.R"
 
 - Tester la tâche : Cliquez sur Exécuter pour vérifier que le script fonctionne et que l’e-mail est envoyé.
+
+  ## Auteurs
+
+- Ali BOUGUERRA : [@ali-bouguerr6](https://github.com/ali-bouguerr6/exam-schedules/)
+- Nawel ARIF: [@LANEVE](https://github.com/LANEVE)
+
