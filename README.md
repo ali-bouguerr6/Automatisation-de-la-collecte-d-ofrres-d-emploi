@@ -13,8 +13,9 @@
 - [Démo](#démo)
 - [Structure du projet](#structure)
 - [Pré-requis](#pré-requis)
-- [Installation](#installation)
-- [Technologies](#technologies)
+- [BrighData](#BrightData)
+- [API Gmail](#APIGmail)
+- [Planificateur de tâches Windows](#Plannificateur_de_tâches_Windows)
 - [Auteurs](#auteurs)
 
 
