@@ -26,8 +26,10 @@ Grâce à des outils avancés comme BrightData pour le scraping et l'API Gmail (
 
 Étapes du projet 
 
-Web Scraping : Récupération des offres d'emploi en contournant les restrictions imposées par les sites web, grâce à l'API BrightData et ses fonctionnalités avancées (proxys intelligents, déverrouillage automatique).
-Nettoyage et structuration des données : Organisation des informations collectées afin qu'elles soient exploitables, avec des colonnes claires (entreprise, titre du poste, localisation, date de publication, et lien de l'offre).
-Automatisation : Envoi quotidien des résultats sous forme d'un e-mail structuré contenant un tableau HTML clair et lisible. L'intégration de l'API Gmail (via le package gmailr) permet de générer et d'envoyer ces notifications automatiquement.
+- Web Scraping : Récupération des offres d'emploi en contournant les restrictions imposées par les sites web, grâce à l'API BrightData et ses fonctionnalités avancées (proxys intelligents, déverrouillage automatique).
+  
+- Nettoyage et structuration des données : Organisation des informations collectées afin qu'elles soient exploitables, avec des colonnes claires (entreprise, titre du poste, localisation, date de publication, et lien de l'offre).
+  
+- Automatisation : Envoi quotidien des résultats sous forme d'un e-mail structuré contenant un tableau HTML clair et lisible. L'intégration de l'API Gmail (via le package gmailr) permet de générer et d'envoyer ces notifications automatiquement.
 
 
