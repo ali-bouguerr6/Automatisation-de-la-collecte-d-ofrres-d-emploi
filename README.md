@@ -73,7 +73,7 @@ Avant de commencer, assurez-vous d’avoir les éléments suivants installés et
 - Remplacer le Token dans le code :
 
 Ouvrez le script R du projet.
-Remplacez la valeur de api_token par le Token généré :
+Remplacez la valeur de api_token par le Token généré 
 
 ## Configuration de l'API Gmail 
 
