@@ -41,7 +41,7 @@ Grâce à des outils avancés comme BrightData pour le scraping et l'API Gmail (
 
 - Dans [automatisation.R.R](automatisation.R.R) vous retrouverez le script principal de scraping et d'envoi automatique des e-mails avec authentification direct sur gmail.
 -  Dans [automatisation(2).R](automatisation(2).R), vous trouverez le script complet, entièrement automatisé, qui inclut l'envoi d'e-mails via Gmail sans nécessiter une authentification manuelle.
-- Dans  [Exemple_email.png](Exemple_email.png)contient un exemple des données collectées et de l'e-mail type envoyé.
+- Dans  [Exemple_email.png](Exemple_email.png) contient un exemple des données collectées et de l'e-mail type envoyé.
 - Dans [gif.démo](Gif.démo.gif), vous retrouverez le GIF utilisé pour la démonstration dans la documentation.
 
 ## Pré-requis
