@@ -52,7 +52,7 @@ Avant de commencer, assurez-vous d’avoir les éléments suivants installés et
    - Téléchargez et installez [R](https://cran.r-project.org/).  
    - Installez également [RStudio](https://posit.co/download/rstudio/) pour un environnement de développement intégré convivial.
   
-2. **Cloner ce dépôt** 
+2. **Cloner le script disponible  [automatisation.R.R](automatisation.R.R) ** 
 
 3. **Packages R nécessaires** :  
    Assurez-vous d’avoir les packages suivants installés dans R :
