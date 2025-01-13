@@ -39,9 +39,9 @@ Grâce à des outils avancés comme BrightData pour le scraping et l'API Gmail (
 
 ## Structure
 
-- Dans [automatisation.R.R](automatisation.R.R) vous retrouverez le script principal de scraping et d'envoi automatique des e-mails.
-- Dans [gmailr_token.R]() vous retrouverez le fichier token généré pour authentifier automatiquement l'API Gmail.
-- Le fichier [job_data.csv]() Fichier CSV généré contenant les offres d’emploi collectées.
+- Dans [automatisation.R.R](automatisation.R.R) vous retrouverez le script principal de scraping et d'envoi automatique des e-mails avec authentification direct sur gmail.
+-  Dans automatisation.R, vous trouverez le script complet, entièrement automatisé, qui inclut l'envoi d'e-mails via Gmail sans nécessiter une authentification manuelle.
+- Dans  contient un exemple des données collectées et de l'e-mail type envoyé.
 - Dans [gif.démo](Gif.démo.gif), vous retrouverez le GIF utilisé pour la démonstration dans la documentation.
 
 ## Pré-requis
