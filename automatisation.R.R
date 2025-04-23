@@ -5,7 +5,7 @@ library(rvest)
 api_url <- "https://api.brightdata.com/request"
 
 # Token d'autorisation (API Token)
-api_token <- "45f2f355d6ddd1f6fa6ec92f63e8f569a0e1855cc40975d377524f5944ceae37"
+api_token <- "XXXXXXXXXXXXXXXXXXXXX"
 
 # Corps de la requête (payload)
 payload <- list(
