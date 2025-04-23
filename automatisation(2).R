@@ -5,7 +5,7 @@ library(rvest)
 api_url <- "https://api.brightdata.com/request"
 
 # Token d'autorisation (API Token)
-api_token <- "45f2f355d6ddd1f6fa6ec92f63e8f569a0e1855cc40975d377524f5944ceae37"
+api_token <- "XXXXXXXXXXXXXXXXXXXXXX"
 
 # Corps de la requête (payload)
 payload <- list(
@@ -128,8 +128,8 @@ job_table <- paste0(
 
 # Créer l'e-mail
 email <- gm_mime() %>%
-  gm_to("alibouguerra38@gmail.com ") %>%
-  gm_from("alibouguerra38@gmail.com") %>%
+  gm_to("XXXXXXXXXX") %>%
+  gm_from("XXXXXXX") %>%
   gm_subject("Résumé des offres d'emploi collectées") %>%
   gm_html_body(paste0(
     "Bonjour,<br><br>",
